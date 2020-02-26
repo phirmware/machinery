@@ -1,0 +1,212 @@
+body {
+    font-family: "varela round";
+    min-height: 100vh;
+}
+
+.header-intro {
+    font-weight: bolder;
+    font-size: 56px;
+    width: 50%;
+}
+
+/* .btn {
+    border-radius: 5px;
+    background: #3b90da;
+    box-shadow: 3px 3px 7px #183a57, -3px -3px 7px #5ee6ff;
+    border: none;
+} */
+
+nav a {
+    color: #cc671c;
+}
+
+.btn-nav {
+    background: #cc671c;
+    border: 1px solid #cc671c;
+}
+
+.btn-action {
+    padding: 18px;
+    width: 30%;
+    color: white;
+    font-size: 25px;
+}
+
+.connect {
+    font-size: 26px;
+    margin: 25px auto;
+    margin-top: 15%;
+}
+
+.btn-connect {
+    width: 30%;
+    padding: 10px;
+    margin: auto;
+}
+
+.vendor-box {
+    background: #051829;
+}
+
+.hr-holder {
+    width: 30%;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.icon_holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: #1A3248 0% 0% no-repeat padding-box;
+    margin: 0 auto;
+}
+
+.how_it_works .content {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.how_it_works .content p {
+    font-size: 18px;
+    padding-top: 16px;
+}
+
+.how_it_works .content span {
+    font-size: 34px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.btn-vendor {
+    width: 28%;
+    margin: 8% auto !important;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.line {
+    width: 1px;
+    border-left: 3px solid #cc671c;
+    height: 30px;
+}
+
+.jumbotron {
+    /* background: linear-gradient(45deg, black, transparent); */
+    /* background: #051829; */
+    background: transparent;
+    height: 90vh;
+    color: white;
+}
+
+.jumbotron>p {
+    text-rendering: geometricPrecision;
+}
+
+.jumbo-cover {
+    background: radial-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.4) 50%), url(assets/machines.png);
+    background-color: #051829;
+    background-size: contain;
+}
+
+.footer {
+    background: #1A3248 0% 0% no-repeat padding-box;
+    color: white;
+}
+
+/* .jumbotron .cart {
+    height: 400px;
+    width: 400px;
+    float: right;
+    margin-right: 20vw;
+    margin-top: -200px;
+} */
+
+/* .navbar-toggler{
+    background: blue;
+} */
+
+@media screen and (max-width: 654px) {
+    .reverse_column {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+    }
+    .header-intro {
+        font-weight: bolder;
+        font-size: 36px;
+        width: 50%;
+    }
+    .btn-action {
+        padding: 18px;
+        width: 30%;
+        color: white;
+        font-size: 15px;
+    }
+    .dump-truck {
+        margin-left: 0px !important;
+    }
+    .how_it_works .icon_holder img {
+        width: 40px;
+    }
+    .how_it_works .icon_holder {
+        width: 80px;
+        height: 80px;
+    }
+    .how_it_works .content span {
+        font-size: 24px;
+        font-weight: bold;
+        padding: 15px;
+    }
+    .how_it_works .content p {
+        font-size: 14px;
+        padding-top: 16px;
+    }
+    .btn-vendor {
+        width: 50%;
+        margin: 8% auto !important;
+        padding: 15px;
+        font-size: 15px;
+    }
+    .btn-action{
+        width: 50%;
+    }
+}
+
+@media(max-width: 995px) {
+    .jumbotron {
+        height: auto;
+    }
+    .jumbotron .cart {
+        display: none;
+    }
+}
+
+@media(max-width: 500px) {
+    .card {
+        margin: 30px;
+    }
+}
+
+.card {
+    border-radius: 37px;
+    background: linear-gradient(145deg, #d4e0df, #fdffff);
+    box-shadow: 28px 28px 85px #a8b1b0, -28px -28px 85px #ffffff;
+}
+
+.card-body>p {
+    /* text-shadow: 1px 1px 0 rgba(0,0,0,.35), 1px 1px 5px rgba(0,0,0,.5); */
+    font-weight: bolder;
+    font-size: 17px;
+}
